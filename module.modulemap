@@ -1,0 +1,6 @@
+module BSD [system] {
+  header "/usr/include/termios.h"
+  header "/usr/include/bsd/bsd.h"
+  link "bsd"
+  export *
+}
